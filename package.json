@@ -1,6 +1,6 @@
 {
   "name": "dynamodel",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Dynamodel is a modeling tool for Amazon's DynamoDB",
   "homepage": "https://github.com/bairongsoft/dynamodel",
   "repository": {
@@ -54,9 +54,9 @@
     "q": "~1.0.1"
   },
   "gitHead": "dc3545f81dfa4c12bf1fd8006183d9da6778f111",
-  "_id": "dynamodel@0.0.5",
+  "_id": "dynamodel@0.0.6",
   "_shasum": "56e2b4f8f74173221edacb7ce5fb30b1ca3f86f4",
-  "_from": "dynamodel@>=0.0.5 <0.0.6",
+  "_from": "dynamodel@>=0.0.6 <0.0.7",
   "_npmVersion": "1.4.28",
   "_npmUser": {
     "name": "bairongsoft",
@@ -70,8 +70,8 @@
   ],
   "dist": {
     "shasum": "56e2b4f8f74173221edacb7ce5fb30b1ca3f86f4",
-    "tarball": "http://registry.npmjs.org/dynamodel/-/dynamodel-0.0.5.tgz"
+    "tarball": "http://registry.npmjs.org/dynamodel/-/dynamodel-0.0.6.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/dynamodel/-/dynamodel-0.0.5.tgz"
+  "_resolved": "https://registry.npmjs.org/dynamodel/-/dynamodel-0.0.6.tgz"
 }
