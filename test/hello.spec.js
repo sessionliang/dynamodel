@@ -1,9 +1,8 @@
-var assert = require("assert")
-
+var chai = require('chai');
 var greet = require('../lib/hello');
 
-describe('hello', function(){
-    it('should say Hello to the World', function(){
-      assert.equal(greet('World'), 'Hello, World!');
+describe('hello', function () {
+    it('should say Hello to the World', function () {
+        chai.expect(greet('World')).to.equal('Hello, World!');
     });
 });
