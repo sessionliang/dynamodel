@@ -13,7 +13,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "gulp test"
   },
   "keywords": [
     "dynamodb",
@@ -38,20 +38,19 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "chai": "*",
+    "gulp": "*",
+    "gulp-mocha": "*",
     "mocha": "*",
-    "should": "*",
-    "grunt": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-mocha-test": "*",
-    "blanket": "*",
+    "require-dir": "*",
     "travis-cov": "*"
   },
   "dependencies": {
-    "aws-sdk": "2.0.*",
+    "aws-sdk": "*",
     "debug": "*",
-    "hooks": "0.3.2",
-    "moment": "^2.9.0",
-    "q": "~1.0.1"
+    "hooks": "*",
+    "moment": "*",
+    "q": "*"
   },
   "gitHead": "dc3545f81dfa4c12bf1fd8006183d9da6778f111",
   "_id": "dynamodel@0.0.6",
@@ -65,7 +64,7 @@
   "maintainers": [
     {
       "name": "bairongsoft",
-    "email": "corp@siteserver.cn"
+      "email": "corp@siteserver.cn"
     }
   ],
   "dist": {
